@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './home';
+import Home from './home/home';
 import Gallery from './gallery';
-import NotFound from './notFound';
+import { NotFound } from './errors';
 
 import './App.css';
 
